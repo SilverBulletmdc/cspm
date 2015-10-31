@@ -27,4 +27,4 @@ Open CSPMRemoter, type
 ```
 rosrun voice_detect voice_py.py
 ```
-Talking to your mobile phone, your voice will be translated to mandrin and Pinyin.This node publish them as rostopic in your computer.
+Talking to your mobile phone, your voice will be translated to mandarin and Pinyin.This node publish them as rostopic in your computer.
