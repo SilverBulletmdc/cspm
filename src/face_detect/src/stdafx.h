@@ -12,9 +12,13 @@
     #include <std_msgs/Empty.h>
     #include <iostream>
     #include <geometry_msgs/Twist.h>
-
+    using namespace cv;
 
     void detect_and_draw( IplImage *image);
+    void detectAndDraw( Mat& img, CascadeClassifier& cascade,
+                        CascadeClassifier& nestedCascade,
+                        double scale, bool tryflip );
+
 
 
 
