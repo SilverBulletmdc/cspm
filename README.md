@@ -1,6 +1,6 @@
 # CSPM
 This is a ROS package for cspm project.
-##introduction
+##Introduction
 CSPM means computer, smart phone and microcontrollers. We developed a simple robot, and put the smart phone on it.Then we read the data from the smart phone, just like ths imu data, camera, gps and geomagnitic.
 
 We use ROS to manage these messages. And this repository is the ROS package we created. At the same time, we developed several android app to controll the robot, and the apk file will be uploaded recently.
