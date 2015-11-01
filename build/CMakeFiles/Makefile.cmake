@@ -14,10 +14,14 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "face_detect/catkin_generated/ordered_paths.cmake"
   "face_detect/catkin_generated/package.cmake"
+  "imu_handler/catkin_generated/ordered_paths.cmake"
+  "imu_handler/catkin_generated/package.cmake"
   "voice_detect/catkin_generated/package.cmake"
   "/home/meng/cspm/src/CMakeLists.txt"
   "/home/meng/cspm/src/face_detect/CMakeLists.txt"
   "/home/meng/cspm/src/face_detect/package.xml"
+  "/home/meng/cspm/src/imu_handler/CMakeLists.txt"
+  "/home/meng/cspm/src/imu_handler/package.xml"
   "/home/meng/cspm/src/voice_detect/CMakeLists.txt"
   "/home/meng/cspm/src/voice_detect/package.xml"
   "/opt/ros/indigo/share/catkin/cmake/../package.xml"
@@ -172,6 +176,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "face_detect/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "imu_handler/CMakeFiles/CMakeDirectoryInformation.cmake"
   "voice_detect/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

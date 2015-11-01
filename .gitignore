@@ -4,7 +4,9 @@
 *.sln  
 *.config  
 *.mp4
-  
+*~  
+*.log
+RemoteSystemsTempFiles/*
   
 
  

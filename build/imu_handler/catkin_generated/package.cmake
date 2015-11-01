@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "imu_handler")
+set(imu_handler_MAINTAINER "meng <meng@todo.todo>")
+set(imu_handler_DEPRECATED "")
+set(imu_handler_VERSION "0.0.0")
+set(imu_handler_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(imu_handler_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(imu_handler_BUILDTOOL_DEPENDS "catkin")
