@@ -205,5 +205,6 @@ SET(CMAKE_DEPEND_INFO_FILES
   "face_detect/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "face_detect/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "face_detect/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
+  "imu_handler/CMakeFiles/imupose.dir/DependInfo.cmake"
   "voice_detect/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   )

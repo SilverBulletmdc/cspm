@@ -149,6 +149,44 @@ depend:
 	cd /home/meng/cspm/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+imu_handler/CMakeFiles/imupose.dir/rule:
+	cd /home/meng/cspm/build && $(MAKE) -f CMakeFiles/Makefile2 imu_handler/CMakeFiles/imupose.dir/rule
+.PHONY : imu_handler/CMakeFiles/imupose.dir/rule
+
+# Convenience name for target.
+imupose: imu_handler/CMakeFiles/imupose.dir/rule
+.PHONY : imupose
+
+# fast build rule for target.
+imupose/fast:
+	cd /home/meng/cspm/build && $(MAKE) -f imu_handler/CMakeFiles/imupose.dir/build.make imu_handler/CMakeFiles/imupose.dir/build
+.PHONY : imupose/fast
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	cd /home/meng/cspm/build && $(MAKE) -f imu_handler/CMakeFiles/imupose.dir/build.make imu_handler/CMakeFiles/imupose.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	cd /home/meng/cspm/build && $(MAKE) -f imu_handler/CMakeFiles/imupose.dir/build.make imu_handler/CMakeFiles/imupose.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	cd /home/meng/cspm/build && $(MAKE) -f imu_handler/CMakeFiles/imupose.dir/build.make imu_handler/CMakeFiles/imupose.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -156,12 +194,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... imupose"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -2,4 +2,4 @@
 source_root_dir = "/home/meng/cspm/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/meng/cspm/devel;/opt/ros/indigo".split(';') if "/home/meng/cspm/devel;/opt/ros/indigo" != "" else []
+underlay_workspaces = "/opt/ros/indigo".split(';') if "/opt/ros/indigo" != "" else []

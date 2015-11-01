@@ -324,7 +324,7 @@ imu_handler_BINARY_DIR:STATIC=/home/meng/cspm/build/imu_handler
 imu_handler_SOURCE_DIR:STATIC=/home/meng/cspm/src/imu_handler
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/indigo/lib/libroslib.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake

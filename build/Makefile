@@ -449,6 +449,19 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named imupose
+
+# Build rule for target.
+imupose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imupose
+.PHONY : imupose
+
+# fast build rule for target.
+imupose/fast:
+	$(MAKE) -f imu_handler/CMakeFiles/imupose.dir/build.make imu_handler/CMakeFiles/imupose.dir/build
+.PHONY : imupose/fast
+
+#=============================================================================
 # Target rules for targets named _catkin_empty_exported_target
 
 # Build rule for target.
@@ -497,6 +510,7 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... imupose"
 	@echo "... _catkin_empty_exported_target"
 .PHONY : help
 

@@ -5,7 +5,7 @@
       <Option title="Project" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\indigo\;CMake Files\..\..\..\..\opt\ros\indigo\share\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\..\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\cpp_common\;CMake Files\..\..\..\..\opt\ros\indigo\share\cpp_common\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\message_runtime\;CMake Files\..\..\..\..\opt\ros\indigo\share\message_runtime\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\rostime\;CMake Files\..\..\..\..\opt\ros\indigo\share\rostime\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\;CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\;CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\;CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\;CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\;CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\;CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\;CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\image_transport\;CMake Files\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\message_filters\;CMake Files\..\..\..\..\opt\ros\indigo\share\message_filters\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\;CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\;CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\;CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\cmake\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\face_detect\;CMake Files\..\build\face_detect\catkin_generated\;CMake Files\face_detect\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\indigo\;CMake Files\..\..\..\..\opt\ros\indigo\share\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\..\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\cpp_common\;CMake Files\..\..\..\..\opt\ros\indigo\share\cpp_common\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\message_runtime\;CMake Files\..\..\..\..\opt\ros\indigo\share\message_runtime\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\;CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\rostime\;CMake Files\..\..\..\..\opt\ros\indigo\share\rostime\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\;CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\;CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\;CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\;CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\;CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\;CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\;CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\image_transport\;CMake Files\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\message_filters\;CMake Files\..\..\..\..\opt\ros\indigo\share\message_filters\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\;CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\;CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\;CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\rospy\;CMake Files\..\..\..\..\opt\ros\indigo\share\rospy\cmake\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\face_detect\;CMake Files\..\build\face_detect\catkin_generated\;CMake Files\..\build\imu_handler\;CMake Files\..\build\imu_handler\catkin_generated\;CMake Files\..\build\voice_detect\;CMake Files\..\build\voice_detect\catkin_generated\;CMake Files\face_detect\;CMake Files\imu_handler\;CMake Files\voice_detect\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/meng/cspm/build" />
@@ -391,10 +391,64 @@
             <DistClean command="/usr/bin/make -f &quot;/home/meng/cspm/build/face_detect/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
+      <Target title="imupose">
+         <Option output="/home/meng/cspm/devel/lib/imu_handler/imupose" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/meng/cspm/devel/lib/imu_handler" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;imu_handler&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/meng/cspm/src/imu_handler/include" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/meng/cspm/build/imu_handler/Makefile&quot;  VERBOSE=1 imupose" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/meng/cspm/build/imu_handler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/meng/cspm/build/imu_handler/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/meng/cspm/build/imu_handler/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="imupose/fast">
+         <Option output="/home/meng/cspm/devel/lib/imu_handler/imupose" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/meng/cspm/devel/lib/imu_handler" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DROS_BUILD_SHARED_LIBS=1" />
+            <Add option="-DROS_PACKAGE_NAME=&quot;imu_handler&quot;" />
+            <Add option="-DROSCONSOLE_BACKEND_LOG4CXX" />
+            <Add directory="/home/meng/cspm/src/imu_handler/include" />
+            <Add directory="/opt/ros/indigo/include" />
+            <Add directory="/usr/include/opencv" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/meng/cspm/build/imu_handler/Makefile&quot;  VERBOSE=1 imupose/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/meng/cspm/build/imu_handler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/meng/cspm/build/imu_handler/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/meng/cspm/build/imu_handler/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="_catkin_empty_exported_target">
+         <Option working_dir="/home/meng/cspm/build/voice_detect" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/meng/cspm/build/voice_detect/Makefile&quot;  VERBOSE=1 _catkin_empty_exported_target" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/meng/cspm/build/voice_detect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/meng/cspm/build/voice_detect/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/meng/cspm/build/voice_detect/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
       </Build>
       <Unit filename="/home/meng/cspm/src/face_detect/src/facedetect.cpp">
       </Unit>
       <Unit filename="/home/meng/cspm/src/face_detect/src/main.cpp">
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/imu_handler/src/main.cpp">
       </Unit>
       <Unit filename="/usr/src/gtest/src/gtest-all.cc">
       </Unit>
@@ -488,6 +542,30 @@
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/interrogate_setup_dot_py.py">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig-version.cmake">
@@ -616,6 +694,78 @@
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
       </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/order_packages.cmake.em">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
       </Unit>
@@ -631,6 +781,48 @@
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
       </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp/cmake/roscppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp/cmake/roscppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp/cmake/roscpp-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
+      </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp/cmake/roscppConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp\cmake\" />
       </Unit>
@@ -661,6 +853,30 @@
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cpp_common/cmake/cpp_commonConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cpp_common\cmake\" />
       </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cpp_common/cmake/cpp_commonConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cpp_common/cmake/cpp_commonConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cpp_common\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_runtime\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_runtime\cmake\" />
+      </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_runtime\cmake\" />
       </Unit>
@@ -685,6 +901,18 @@
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\cmake\" />
       </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_serialization\cmake\" />
+      </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\" />
       </Unit>
@@ -696,6 +924,30 @@
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roscpp_traits\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rostime/cmake/rostimeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rostime\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rostime/cmake/rostimeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rostime\cmake\" />
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rostime/cmake/rostimeConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rostime\cmake\" />
@@ -726,6 +978,42 @@
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosconsole/cmake/rosconsole-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosconsole/cmake/rosconsoleConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosconsole/cmake/rosconsoleConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosconsole/cmake/rosconsole-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosconsole\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\" />
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rosgraph_msgs\cmake\" />
@@ -775,6 +1063,36 @@
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\std_msgs\cmake\" />
+      </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\" />
       </Unit>
@@ -786,6 +1104,36 @@
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\xmlrpcpp\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\sensor_msgs\cmake\" />
@@ -823,6 +1171,24 @@
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\" />
       </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\geometry_msgs\cmake\" />
+      </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\" />
       </Unit>
@@ -834,6 +1200,30 @@
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cv_bridge/cmake/cv_bridgeConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cv_bridge/cmake/cv_bridgeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/cv_bridge/cmake/cv_bridgeConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\cv_bridge\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/image_transport/cmake/image_transportConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/image_transport/cmake/image_transportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/image_transport/cmake/image_transportConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/image_transport/cmake/image_transportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\" />
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/image_transport/cmake/image_transportConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\image_transport\cmake\" />
@@ -859,6 +1249,18 @@
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_filters/cmake/message_filtersConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_filters\cmake\" />
       </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_filters/cmake/message_filtersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_filters\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_filters/cmake/message_filtersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_filters\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_filters/cmake/message_filtersConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_filters\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/message_filters/cmake/message_filtersConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\message_filters\cmake\" />
+      </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/pluginlib/cmake/pluginlibConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\" />
       </Unit>
@@ -870,6 +1272,36 @@
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/pluginlib/cmake/pluginlibConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/pluginlib/cmake/pluginlibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/pluginlib/cmake/pluginlibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/pluginlib/cmake/pluginlibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/pluginlib/cmake/pluginlibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\pluginlib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/class_loader/cmake/class_loaderConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/class_loader/cmake/class_loaderConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/class_loader/cmake/class_loader-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/class_loader/cmake/class_loaderConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/class_loader/cmake/class_loaderConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/class_loader/cmake/class_loader-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\" />
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/class_loader/cmake/class_loaderConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\class_loader\cmake\" />
@@ -907,6 +1339,36 @@
       <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roslib/cmake/roslib-extras.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\cmake\" />
       </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roslib/cmake/roslibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roslib/cmake/roslibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roslib/cmake/roslib-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roslib/cmake/roslibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roslib/cmake/roslibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/roslib/cmake/roslib-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rospy/cmake/rospyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rospy/cmake/rospyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rospy/cmake/rospyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rospy\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../opt/ros/indigo/share/rospy/cmake/rospyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\rospy\cmake\" />
+      </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../usr/src/gtest/CMakeLists.txt">
           <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gtest\" />
       </Unit>
@@ -918,6 +1380,30 @@
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../usr/src/gtest/cmake/internal_utils.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\usr\src\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../usr/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../usr/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
       </Unit>
       <Unit filename="/home/meng/cspm/src/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\" />
@@ -967,6 +1453,30 @@
       <Unit filename="/home/meng/cspm/src/../build/face_detect/catkin_generated/package.cmake">
           <Option virtualFolder="CMake Files\..\build\face_detect\catkin_generated\" />
       </Unit>
+      <Unit filename="/home/meng/cspm/src/../build/imu_handler/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\imu_handler\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../build/imu_handler/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\imu_handler\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../build/imu_handler/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\imu_handler\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../build/imu_handler/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\imu_handler\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../build/imu_handler/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\..\build\imu_handler\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../build/imu_handler/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\imu_handler\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../build/voice_detect/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\voice_detect\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/../build/voice_detect/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\voice_detect\catkin_generated\" />
+      </Unit>
       <Unit filename="/home/meng/cspm/src/face_detect/CMakeLists.txt">
           <Option virtualFolder="CMake Files\face_detect\" />
       </Unit>
@@ -978,6 +1488,30 @@
       </Unit>
       <Unit filename="/home/meng/cspm/src/face_detect/package.xml">
           <Option virtualFolder="CMake Files\face_detect\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/imu_handler/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\imu_handler\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/imu_handler/package.xml">
+          <Option virtualFolder="CMake Files\imu_handler\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/imu_handler/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\imu_handler\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/imu_handler/package.xml">
+          <Option virtualFolder="CMake Files\imu_handler\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/voice_detect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\voice_detect\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/voice_detect/package.xml">
+          <Option virtualFolder="CMake Files\voice_detect\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/voice_detect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\voice_detect\" />
+      </Unit>
+      <Unit filename="/home/meng/cspm/src/voice_detect/package.xml">
+          <Option virtualFolder="CMake Files\voice_detect\" />
       </Unit>
    </Project>
 </CodeBlocks_project_file>

@@ -7,6 +7,11 @@
 *~  
 *.log
 RemoteSystemsTempFiles/*
+.*/
+build/
+*.user
+.project
+.pydevproject
   
 
  
