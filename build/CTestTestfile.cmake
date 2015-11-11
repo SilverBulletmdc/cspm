@@ -6,5 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 SUBDIRS(gtest)
 SUBDIRS(face_detect)
-SUBDIRS(imu_handler)
 SUBDIRS(voice_detect)

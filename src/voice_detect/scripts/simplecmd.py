@@ -15,7 +15,7 @@ class CSPMRobot:
         self.tt = Twist()
         self.refresh()
 
-        self.cmd_pub = rospy.Publisher('turtle1/cmd_vel',Twist, queue_size=50)
+        self.cmd_pub = rospy.Publisher('/cmd_vel',Twist, queue_size=50)
     def move_forword(self,speed):
         self.tt.linear.x = speed
         self.cmd_pub.publish(self.tt)

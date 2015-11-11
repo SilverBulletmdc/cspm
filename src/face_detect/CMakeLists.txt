@@ -9,16 +9,16 @@ find_package(catkin REQUIRED COMPONENTS
   cv_bridge
   image_transport
 )
-
+find_package(Qt4)
 
 catkin_package()
-
 find_package(OpenCV)
 include_directories(
   ${OpenCV_INCLUDE_DIRS}
 )
+MESSAGE(STATUS ${OpenCV_INCLUDE_DIRS})
 
-include_directories(include ${catkin_INCLUDE_DIRS})
+include_directories(include ${catkin_INCLUDE_DIRS} ${Qt4_INCLUDE_DIRS} )
 add_executable(facedetect ${SRC_LIST})
-target_link_libraries(facedetect ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(facedetect ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${Qt4_LIBRARIES} )
 add_dependencies(facedetect facedetect_generate_messages_cpp)

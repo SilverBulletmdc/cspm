@@ -2,6 +2,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/core/core.hpp>
 #include <opencv2/objdetect/objdetect.hpp>
+#include <opencv/cv.h>
 
 
 using namespace cv;
@@ -19,6 +20,7 @@ int main1()
     }
     Mat frame;
     Mat edges;
+    vector<string> v;
 
     CascadeClassifier cascade, nestedCascade;
     bool stop = false;
@@ -134,5 +136,6 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
             circle( img, center, radius, color, 3, 8, 0 );
         }
     }
+    cv::resize(img,img,Size(640,320));
     cv::imshow( "result", img );
 }

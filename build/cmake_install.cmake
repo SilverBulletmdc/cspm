@@ -118,7 +118,6 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/meng/cspm/build/gtest/cmake_install.cmake")
   INCLUDE("/home/meng/cspm/build/face_detect/cmake_install.cmake")
-  INCLUDE("/home/meng/cspm/build/imu_handler/cmake_install.cmake")
   INCLUDE("/home/meng/cspm/build/voice_detect/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -9,6 +9,8 @@
 /home/meng/cspm/src/face_detect/src/main.cpp
 stdafx.h
 /home/meng/cspm/src/face_detect/src/stdafx.h
+qt4/Qt/q3accel.h
+/home/meng/cspm/src/face_detect/src/qt4/Qt/q3accel.h
 
 /home/meng/cspm/src/face_detect/src/stdafx.h
 ros/ros.h
