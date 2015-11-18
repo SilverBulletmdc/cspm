@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "qt4/Qt/q3accel.h"
+
 
 using namespace std;
 using namespace cv;

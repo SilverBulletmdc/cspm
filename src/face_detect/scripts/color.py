@@ -44,6 +44,8 @@ def action(img_bytes, img_width, img_height):
 
     # Grab centroid of green ball
     ctr,pix_sum = color_tracker.track(img_bytes)
+    if ctr == (-1,-1):
+        return (0,0,0,0,0,0)
     # Use centroid if it exists
     if pix_sum / float(pix_sum_0) > 0.1:
         # Compute proportional distance (error) of centroid from image center
