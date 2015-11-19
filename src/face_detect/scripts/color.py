@@ -3,7 +3,7 @@
 
 # PID parameters
 Kpx = 0.25
-Kpy = 1
+Kpy = 2
 Kdx = 0.25
 Kdy = 0.25
 Kix = 0
@@ -47,7 +47,7 @@ def action(img_bytes, img_width, img_height):
     if ctr == (-1,-1):
         return (0,0,0,0,0,0)
     # Use centroid if it exists
-    if pix_sum / float(pix_sum_0) > 0.1:
+    if pix_sum / float(pix_sum_0) > 0:
         # Compute proportional distance (error) of centroid from image center
         erry =  _dst(ctr, 0, img_width)
         errx =  1 - pix_sum/float(pix_sum_0)

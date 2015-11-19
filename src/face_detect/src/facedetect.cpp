@@ -3,42 +3,22 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/objdetect/objdetect.hpp>
 #include <opencv/cv.h>
+#include <iostream>
+
+using namespace std;
+
 
 
 using namespace cv;
 
 void detectAndDraw( Mat& img, CascadeClassifier& cascade,
                     CascadeClassifier& nestedCascade,
-                    double scale, bool tryflip );
+                    double scale, bool tryflip,int& pix_sum,Point& ctr);
 
-int main1()
-{
-    VideoCapture cap(1);    //打开默认摄像头
-    if(!cap.isOpened())
-    {
-        return -1;
-    }
-    Mat frame;
-    Mat edges;
-    vector<string> v;
 
-    CascadeClassifier cascade, nestedCascade;
-    bool stop = false;
-    //训练好的文件名称，放置在可执行文件同目录下
-    cascade.load("haarcascade_frontalface_alt.xml");
-    nestedCascade.load("haarcascade_eye_tree_eyeglasses.xml");
-    while(!stop)
-    {
-        cap>>frame;
-        detectAndDraw( frame, cascade, nestedCascade,2,0 );
-        if(waitKey(30) >=0)
-            stop = true;
-    }
-    return 0;
-}
 void detectAndDraw( Mat& img, CascadeClassifier& cascade,
                     CascadeClassifier& nestedCascade,
-                    double scale, bool tryflip )
+                    double scale, bool tryflip ,int& pix_sum,Point& ctr)
 {
     int i = 0;
     double t = 0;
@@ -110,6 +90,10 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
             center.x = cvRound((r->x + r->width*0.5)*scale);
             center.y = cvRound((r->y + r->height*0.5)*scale);
             radius = cvRound((r->width + r->height)*0.25*scale);
+            cout << center.x << " " << center.y << endl;
+            ctr = center;
+            pix_sum = radius*radius*3.14;
+
             circle( img, center, radius, color, 3, 8, 0 );
         }
         else
@@ -136,6 +120,5 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
             circle( img, center, radius, color, 3, 8, 0 );
         }
     }
-    cv::resize(img,img,Size(640,320));
-    cv::imshow( "result", img );
+
 }

@@ -119,7 +119,9 @@ def track(image):
             ctr = None
 
         # Return coordinates of centroid
+        print ctr
         return ctr,sum_pix/(255*255*255)
+
     cv2.imshow(WINDOW_NAME, image)
     return (-1,-1),-1
 

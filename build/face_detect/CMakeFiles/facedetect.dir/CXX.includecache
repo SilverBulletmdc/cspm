@@ -9,6 +9,10 @@
 /home/meng/cspm/src/face_detect/src/main.cpp
 stdafx.h
 /home/meng/cspm/src/face_detect/src/stdafx.h
+vector
+-
+sensor_msgs/Image.h
+/home/meng/cspm/src/face_detect/src/sensor_msgs/Image.h
 
 /home/meng/cspm/src/face_detect/src/stdafx.h
 ros/ros.h

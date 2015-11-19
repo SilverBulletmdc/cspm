@@ -29,7 +29,7 @@ def callback(imu):
     pose.position.z = 0
     global pose_pub
     pose_pub.publish(pose)
-rospy.init_node('posepub', anonymous=True)
+rospy.init_node('imulistener', anonymous=True)
 rospy.Subscriber('/android/imu', Imu, callback)
 pose_pub = rospy.Publisher('pose', geometry_msgs.msg.Pose, queue_size=50)
 rospy.spin()

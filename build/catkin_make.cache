@@ -1,2 +1,2 @@
-face_detect:voice_detect
+cspm:face_detect:voice_detect
 -DCATKIN_DEVEL_PREFIX=/home/meng/cspm/devel -DCMAKE_INSTALL_PREFIX=/home/meng/cspm/install -G Unix Makefiles
