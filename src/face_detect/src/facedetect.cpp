@@ -3,6 +3,13 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/objdetect/objdetect.hpp>
 #include <opencv/cv.h>
+#include <opencv2/features2d/features2d.hpp>
+#include "opencv2/core/core.hpp"
+
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/features2d/features2d.hpp"
+#include <opencv2/nonfree/nonfree.hpp>
+#include "opencv2/legacy/legacy.hpp"
 #include <iostream>
 
 using namespace std;
@@ -75,6 +82,10 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
     }
     t = (double)cvGetTickCount() - t;
  //   qDebug( "detection time = %g ms\n", t/((double)cvGetTickFrequency()*1000.) );
+    if(faces.empty()){
+    	pix_sum = -1;
+    	return;
+    }
     for( vector<Rect>::const_iterator r = faces.begin(); r != faces.end(); r++, i++ )
     {
         Mat smallImgROI;
@@ -122,3 +133,26 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
     }
 
 }
+
+
+void detect_color_and_draw(Scalar hsv, Mat& src, Mat &dst, Point& ctr){
+	cvtColor(src, dst, CV_BGR2HSV);
+	inRange(dst, Scalar(140, 70, 70), Scalar(180, 200, 200), dst);
+	imshow(string("mask"), dst);
+	blur(dst, dst, Size(5,5));
+	Moments m;
+	m = moments(dst);
+	ctr = Point(-1, -1);
+	if(m.m00 != 0){
+		ctr.x = m.m10 / m.m00;
+		ctr.y = m.m01 / m.m00;
+	}
+	circle(src, ctr, 8, Scalar(0,0,255));
+
+
+}
+bool recognize(Mat &db_img, Mat &src){
+	cv::SiftFeatureDetector detector;
+
+}
+

@@ -7,4 +7,5 @@
 SUBDIRS(gtest)
 SUBDIRS(cspm)
 SUBDIRS(face_detect)
+SUBDIRS(cspm_tf)
 SUBDIRS(voice_detect)

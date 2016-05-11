@@ -37,7 +37,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Debug
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -81,6 +81,9 @@ CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
 //Flags used by the compiler during Release with Debug Info builds.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
+//No help, variable specified on the command line.
+CMAKE_ECLIPSE_MAKE_ARGUMENTS:UNINITIALIZED=-j8
 
 //Flags used by the linker.
 CMAKE_EXE_LINKER_FLAGS:STRING=' '
@@ -238,6 +241,9 @@ OpenCV_LIB_DIR_DBG:PATH=
 //Path where release OpenCV libraries are located
 OpenCV_LIB_DIR_OPT:PATH=
 
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
@@ -279,6 +285,9 @@ QT_DESIGNER_EXECUTABLE:FILEPATH=QT_DESIGNER_EXECUTABLE-NOTFOUND
 
 //The location of the Qt docs
 QT_DOC_DIR:PATH=/usr/share/qt4/doc
+
+//The location of the Qt imports
+QT_IMPORTS_DIR:PATH=
 
 //Path to a program.
 QT_LINGUIST_EXECUTABLE:FILEPATH=QT_LINGUIST_EXECUTABLE-NOTFOUND
@@ -482,7 +491,7 @@ QT_QT3SUPPORTWIDGETS_PLUGIN_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/qt4/plugi
 QT_QT3SUPPORT_INCLUDE_DIR:PATH=/usr/include/qt4/Qt3Support
 
 //The Qt QT3SUPPORT library
-QT_QT3SUPPORT_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQt3Support.so
+QT_QT3SUPPORT_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQt3Support.so;debug;/usr/lib/x86_64-linux-gnu/libQt3Support.so
 
 //Path to a library.
 QT_QT3SUPPORT_LIBRARY_DEBUG:FILEPATH=QT_QT3SUPPORT_LIBRARY_DEBUG-NOTFOUND
@@ -527,7 +536,7 @@ QT_QTASSISTANT_LIBRARY_DEBUG:FILEPATH=QT_QTASSISTANT_LIBRARY_DEBUG-NOTFOUND
 QT_QTASSISTANT_LIBRARY_RELEASE:FILEPATH=QT_QTASSISTANT_LIBRARY_RELEASE-NOTFOUND
 
 //The Qt QTCLUCENE library
-QT_QTCLUCENE_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtCLucene.so
+QT_QTCLUCENE_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtCLucene.so;debug;/usr/lib/x86_64-linux-gnu/libQtCLucene.so
 
 //Path to a library.
 QT_QTCLUCENE_LIBRARY_DEBUG:FILEPATH=QT_QTCLUCENE_LIBRARY_DEBUG-NOTFOUND
@@ -539,7 +548,7 @@ QT_QTCLUCENE_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtCLucene.so
 QT_QTCORE_INCLUDE_DIR:PATH=/usr/include/qt4/QtCore
 
 //The Qt QTCORE library
-QT_QTCORE_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtCore.so
+QT_QTCORE_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtCore.so;debug;/usr/lib/x86_64-linux-gnu/libQtCore.so
 
 //Path to a library.
 QT_QTCORE_LIBRARY_DEBUG:FILEPATH=QT_QTCORE_LIBRARY_DEBUG-NOTFOUND
@@ -551,7 +560,7 @@ QT_QTCORE_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtCore.so
 QT_QTDBUS_INCLUDE_DIR:PATH=/usr/include/qt4/QtDBus
 
 //The Qt QTDBUS library
-QT_QTDBUS_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtDBus.so
+QT_QTDBUS_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtDBus.so;debug;/usr/lib/x86_64-linux-gnu/libQtDBus.so
 
 //Path to a library.
 QT_QTDBUS_LIBRARY_DEBUG:FILEPATH=QT_QTDBUS_LIBRARY_DEBUG-NOTFOUND
@@ -563,7 +572,7 @@ QT_QTDBUS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtDBus.so
 QT_QTDECLARATIVE_INCLUDE_DIR:PATH=/usr/include/qt4/QtDeclarative
 
 //The Qt QTDECLARATIVE library
-QT_QTDECLARATIVE_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtDeclarative.so
+QT_QTDECLARATIVE_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtDeclarative.so;debug;/usr/lib/x86_64-linux-gnu/libQtDeclarative.so
 
 //Path to a library.
 QT_QTDECLARATIVE_LIBRARY_DEBUG:FILEPATH=QT_QTDECLARATIVE_LIBRARY_DEBUG-NOTFOUND
@@ -575,7 +584,7 @@ QT_QTDECLARATIVE_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtDeclara
 QT_QTDESIGNERCOMPONENTS_INCLUDE_DIR:PATH=/usr/include/qt4/QtDesigner
 
 //The Qt QTDESIGNERCOMPONENTS library
-QT_QTDESIGNERCOMPONENTS_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtDesignerComponents.so
+QT_QTDESIGNERCOMPONENTS_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtDesignerComponents.so;debug;/usr/lib/x86_64-linux-gnu/libQtDesignerComponents.so
 
 //Path to a library.
 QT_QTDESIGNERCOMPONENTS_LIBRARY_DEBUG:FILEPATH=QT_QTDESIGNERCOMPONENTS_LIBRARY_DEBUG-NOTFOUND
@@ -587,7 +596,7 @@ QT_QTDESIGNERCOMPONENTS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQt
 QT_QTDESIGNER_INCLUDE_DIR:PATH=/usr/include/qt4/QtDesigner
 
 //The Qt QTDESIGNER library
-QT_QTDESIGNER_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtDesigner.so
+QT_QTDESIGNER_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtDesigner.so;debug;/usr/lib/x86_64-linux-gnu/libQtDesigner.so
 
 //Path to a library.
 QT_QTDESIGNER_LIBRARY_DEBUG:FILEPATH=QT_QTDESIGNER_LIBRARY_DEBUG-NOTFOUND
@@ -599,7 +608,7 @@ QT_QTDESIGNER_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtDesigner.s
 QT_QTGUI_INCLUDE_DIR:PATH=/usr/include/qt4/QtGui
 
 //The Qt QTGUI library
-QT_QTGUI_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtGui.so
+QT_QTGUI_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtGui.so;debug;/usr/lib/x86_64-linux-gnu/libQtGui.so
 
 //Path to a library.
 QT_QTGUI_LIBRARY_DEBUG:FILEPATH=QT_QTGUI_LIBRARY_DEBUG-NOTFOUND
@@ -611,7 +620,7 @@ QT_QTGUI_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtGui.so
 QT_QTHELP_INCLUDE_DIR:PATH=/usr/include/qt4/QtHelp
 
 //The Qt QTHELP library
-QT_QTHELP_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtHelp.so
+QT_QTHELP_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtHelp.so;debug;/usr/lib/x86_64-linux-gnu/libQtHelp.so
 
 //Path to a library.
 QT_QTHELP_LIBRARY_DEBUG:FILEPATH=QT_QTHELP_LIBRARY_DEBUG-NOTFOUND
@@ -653,7 +662,7 @@ QT_QTMULTIMEDIA_LIBRARY_RELEASE:FILEPATH=QT_QTMULTIMEDIA_LIBRARY_RELEASE-NOTFOUN
 QT_QTNETWORK_INCLUDE_DIR:PATH=/usr/include/qt4/QtNetwork
 
 //The Qt QTNETWORK library
-QT_QTNETWORK_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtNetwork.so
+QT_QTNETWORK_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtNetwork.so;debug;/usr/lib/x86_64-linux-gnu/libQtNetwork.so
 
 //Path to a library.
 QT_QTNETWORK_LIBRARY_DEBUG:FILEPATH=QT_QTNETWORK_LIBRARY_DEBUG-NOTFOUND
@@ -677,7 +686,7 @@ QT_QTNSPLUGIN_LIBRARY_RELEASE:FILEPATH=QT_QTNSPLUGIN_LIBRARY_RELEASE-NOTFOUND
 QT_QTOPENGL_INCLUDE_DIR:PATH=/usr/include/qt4/QtOpenGL
 
 //The Qt QTOPENGL library
-QT_QTOPENGL_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtOpenGL.so
+QT_QTOPENGL_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtOpenGL.so;debug;/usr/lib/x86_64-linux-gnu/libQtOpenGL.so
 
 //Path to a library.
 QT_QTOPENGL_LIBRARY_DEBUG:FILEPATH=QT_QTOPENGL_LIBRARY_DEBUG-NOTFOUND
@@ -701,7 +710,7 @@ QT_QTSCRIPTDBUS_PLUGIN_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/qt4/plugins/sc
 QT_QTSCRIPTTOOLS_INCLUDE_DIR:PATH=/usr/include/qt4/QtScriptTools
 
 //The Qt QTSCRIPTTOOLS library
-QT_QTSCRIPTTOOLS_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtScriptTools.so
+QT_QTSCRIPTTOOLS_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtScriptTools.so;debug;/usr/lib/x86_64-linux-gnu/libQtScriptTools.so
 
 //Path to a library.
 QT_QTSCRIPTTOOLS_LIBRARY_DEBUG:FILEPATH=QT_QTSCRIPTTOOLS_LIBRARY_DEBUG-NOTFOUND
@@ -713,7 +722,7 @@ QT_QTSCRIPTTOOLS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtScriptT
 QT_QTSCRIPT_INCLUDE_DIR:PATH=/usr/include/qt4/QtScript
 
 //The Qt QTSCRIPT library
-QT_QTSCRIPT_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtScript.so
+QT_QTSCRIPT_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtScript.so;debug;/usr/lib/x86_64-linux-gnu/libQtScript.so
 
 //Path to a library.
 QT_QTSCRIPT_LIBRARY_DEBUG:FILEPATH=QT_QTSCRIPT_LIBRARY_DEBUG-NOTFOUND
@@ -725,7 +734,7 @@ QT_QTSCRIPT_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtScript.so
 QT_QTSQL_INCLUDE_DIR:PATH=/usr/include/qt4/QtSql
 
 //The Qt QTSQL library
-QT_QTSQL_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtSql.so
+QT_QTSQL_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtSql.so;debug;/usr/lib/x86_64-linux-gnu/libQtSql.so
 
 //Path to a library.
 QT_QTSQL_LIBRARY_DEBUG:FILEPATH=QT_QTSQL_LIBRARY_DEBUG-NOTFOUND
@@ -737,7 +746,7 @@ QT_QTSQL_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtSql.so
 QT_QTSVG_INCLUDE_DIR:PATH=/usr/include/qt4/QtSvg
 
 //The Qt QTSVG library
-QT_QTSVG_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtSvg.so
+QT_QTSVG_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtSvg.so;debug;/usr/lib/x86_64-linux-gnu/libQtSvg.so
 
 //Path to a library.
 QT_QTSVG_LIBRARY_DEBUG:FILEPATH=QT_QTSVG_LIBRARY_DEBUG-NOTFOUND
@@ -749,7 +758,7 @@ QT_QTSVG_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtSvg.so
 QT_QTTEST_INCLUDE_DIR:PATH=/usr/include/qt4/QtTest
 
 //The Qt QTTEST library
-QT_QTTEST_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtTest.so
+QT_QTTEST_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtTest.so;debug;/usr/lib/x86_64-linux-gnu/libQtTest.so
 
 //Path to a library.
 QT_QTTEST_LIBRARY_DEBUG:FILEPATH=QT_QTTEST_LIBRARY_DEBUG-NOTFOUND
@@ -761,7 +770,7 @@ QT_QTTEST_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtTest.so
 QT_QTUITOOLS_INCLUDE_DIR:PATH=/usr/include/qt4/QtUiTools
 
 //The Qt QTUITOOLS library
-QT_QTUITOOLS_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtUiTools.a
+QT_QTUITOOLS_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtUiTools.a;debug;/usr/lib/x86_64-linux-gnu/libQtUiTools.a
 
 //Path to a library.
 QT_QTUITOOLS_LIBRARY_DEBUG:FILEPATH=QT_QTUITOOLS_LIBRARY_DEBUG-NOTFOUND
@@ -779,7 +788,7 @@ QT_QTWCODECS_PLUGIN_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/qt4/plugins/codec
 QT_QTWEBKIT_INCLUDE_DIR:PATH=/usr/include/qt4/QtWebKit
 
 //The Qt QTWEBKIT library
-QT_QTWEBKIT_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtWebKit.so
+QT_QTWEBKIT_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtWebKit.so;debug;/usr/lib/x86_64-linux-gnu/libQtWebKit.so
 
 //Path to a library.
 QT_QTWEBKIT_LIBRARY_DEBUG:FILEPATH=QT_QTWEBKIT_LIBRARY_DEBUG-NOTFOUND
@@ -791,7 +800,7 @@ QT_QTWEBKIT_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtWebKit.so
 QT_QTXMLPATTERNS_INCLUDE_DIR:PATH=/usr/include/qt4/QtXmlPatterns
 
 //The Qt QTXMLPATTERNS library
-QT_QTXMLPATTERNS_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtXmlPatterns.so
+QT_QTXMLPATTERNS_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtXmlPatterns.so;debug;/usr/lib/x86_64-linux-gnu/libQtXmlPatterns.so
 
 //Path to a library.
 QT_QTXMLPATTERNS_LIBRARY_DEBUG:FILEPATH=QT_QTXMLPATTERNS_LIBRARY_DEBUG-NOTFOUND
@@ -803,7 +812,7 @@ QT_QTXMLPATTERNS_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libQtXmlPatt
 QT_QTXML_INCLUDE_DIR:PATH=/usr/include/qt4/QtXml
 
 //The Qt QTXML library
-QT_QTXML_LIBRARY:STRING=/usr/lib/x86_64-linux-gnu/libQtXml.so
+QT_QTXML_LIBRARY:STRING=optimized;/usr/lib/x86_64-linux-gnu/libQtXml.so;debug;/usr/lib/x86_64-linux-gnu/libQtXml.so
 
 //Path to a library.
 QT_QTXML_LIBRARY_DEBUG:FILEPATH=QT_QTXML_LIBRARY_DEBUG-NOTFOUND
@@ -865,6 +874,12 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
+
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
 
@@ -880,14 +895,41 @@ cspm_BINARY_DIR:STATIC=/home/meng/cspm/build/cspm
 //Value Computed by CMake
 cspm_SOURCE_DIR:STATIC=/home/meng/cspm/src/cspm
 
+//Value Computed by CMake
+cspm_tf_BINARY_DIR:STATIC=/home/meng/cspm/build/cspm_tf
+
+//Value Computed by CMake
+cspm_tf_SOURCE_DIR:STATIC=/home/meng/cspm/src/cspm_tf
+
 //The directory containing a CMake configuration file for cv_bridge.
 cv_bridge_DIR:PATH=/opt/ros/indigo/share/cv_bridge/cmake
+
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
+
+//Value Computed by CMake
+ethzasl_ptam_BINARY_DIR:STATIC=/home/meng/cspm/build/ethzasl_ptam/ethzasl_ptam
+
+//Value Computed by CMake
+ethzasl_ptam_SOURCE_DIR:STATIC=/home/meng/cspm/src/ethzasl_ptam/ethzasl_ptam
 
 //Value Computed by CMake
 face_detect_BINARY_DIR:STATIC=/home/meng/cspm/build/face_detect
 
 //Value Computed by CMake
 face_detect_SOURCE_DIR:STATIC=/home/meng/cspm/src/face_detect
+
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/indigo/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/indigo/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/indigo/share/genpy/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/indigo/share/geometry_msgs/cmake
@@ -921,16 +963,34 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 image_transport_DIR:PATH=/opt/ros/indigo/share/image_transport/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/indigo/lib/libroslib.so
+lib:FILEPATH=/opt/ros/indigo/lib/libtf2.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
+
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
+
+//Value Computed by CMake
+ptam_BINARY_DIR:STATIC=/home/meng/cspm/build/ethzasl_ptam/ptam
+
+//Value Computed by CMake
+ptam_SOURCE_DIR:STATIC=/home/meng/cspm/src/ethzasl_ptam/ptam
+
+//Value Computed by CMake
+ptam_com_BINARY_DIR:STATIC=/home/meng/cspm/build/ethzasl_ptam/ptam_com
+
+//The directory containing a CMake configuration file for ptam_com.
+ptam_com_DIR:PATH=/home/meng/ardrone_catkin_ws/devel/share/ptam_com/cmake
+
+//Value Computed by CMake
+ptam_com_SOURCE_DIR:STATIC=/home/meng/cspm/src/ethzasl_ptam/ptam_com
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
@@ -944,6 +1004,9 @@ roscpp_serialization_DIR:PATH=/opt/ros/indigo/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/indigo/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/indigo/share/rosgraph/cmake
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
 
@@ -956,11 +1019,44 @@ rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
 
+//Value Computed by CMake
+rqt_ptam_BINARY_DIR:STATIC=/home/meng/cspm/build/ethzasl_ptam/rqt_ptam
+
+//Dependencies for the target
+rqt_ptam_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libQtCore.so;general;/usr/lib/x86_64-linux-gnu/libQtGui.so;
+
+//Value Computed by CMake
+rqt_ptam_SOURCE_DIR:STATIC=/home/meng/cspm/src/ethzasl_ptam/rqt_ptam
+
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/indigo/share/std_srvs/cmake
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/indigo/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/indigo/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/indigo/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tf.
+tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
+
+//The directory containing a CMake configuration file for turtlesim.
+turtlesim_DIR:PATH=/opt/ros/indigo/share/turtlesim/cmake
+
+//The directory containing a CMake configuration file for visualization_msgs.
+visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
 
 //Value Computed by CMake
 voice_detect_BINARY_DIR:STATIC=/home/meng/cspm/build/voice_detect
@@ -1073,7 +1169,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=5
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1114,10 +1210,12 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.26()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.6()]
 //Details about finding Qt4
-FIND_PACKAGE_MESSAGE_DETAILS_Qt4:INTERNAL=[/usr/bin/qmake][/usr/lib/x86_64-linux-gnu/qt4/bin/moc][/usr/lib/x86_64-linux-gnu/qt4/bin/rcc][/usr/lib/x86_64-linux-gnu/qt4/bin/uic][/usr/include/qt4][/usr/lib/x86_64-linux-gnu][/usr/lib/x86_64-linux-gnu/libQtCore.so][v4.8.6()]
+FIND_PACKAGE_MESSAGE_DETAILS_Qt4:INTERNAL=[/usr/bin/qmake][/usr/lib/x86_64-linux-gnu/qt4/bin/moc][/usr/lib/x86_64-linux-gnu/qt4/bin/rcc][/usr/lib/x86_64-linux-gnu/qt4/bin/uic][/usr/include/qt4][/usr/lib/x86_64-linux-gnu][optimized;/usr/lib/x86_64-linux-gnu/libQtCore.so;debug;/usr/lib/x86_64-linux-gnu/libQtCore.so][v4.8.6()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
@@ -1135,6 +1233,74 @@ GTEST_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 GTEST_MAIN_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GTEST_MAIN_LIBRARY_DEBUG
 GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+GTK3_CFLAGS:INTERNAL=-pthread;-I/usr/include/gtk-2.0;-I/usr/lib/x86_64-linux-gnu/gtk-2.0/include;-I/usr/include/atk-1.0;-I/usr/include/cairo;-I/usr/include/gdk-pixbuf-2.0;-I/usr/include/pango-1.0;-I/usr/include/gio-unix-2.0/;-I/usr/include/freetype2;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/usr/include/pixman-1;-I/usr/include/libpng12;-I/usr/include/harfbuzz
+GTK3_CFLAGS_I:INTERNAL=
+GTK3_CFLAGS_OTHER:INTERNAL=-pthread
+GTK3_FOUND:INTERNAL=1
+GTK3_INCLUDEDIR:INTERNAL=/usr/include
+GTK3_INCLUDE_DIRS:INTERNAL=/usr/include/gtk-2.0;/usr/lib/x86_64-linux-gnu/gtk-2.0/include;/usr/include/atk-1.0;/usr/include/cairo;/usr/include/gdk-pixbuf-2.0;/usr/include/pango-1.0;/usr/include/gio-unix-2.0/;/usr/include/freetype2;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include;/usr/include/pixman-1;/usr/include/libpng12;/usr/include/harfbuzz
+GTK3_LDFLAGS:INTERNAL=-lgtk-x11-2.0;-lgdk-x11-2.0;-latk-1.0;-lgio-2.0;-lpangoft2-1.0;-lpangocairo-1.0;-lgdk_pixbuf-2.0;-lcairo;-lpango-1.0;-lfontconfig;-lgobject-2.0;-lglib-2.0;-lfreetype
+GTK3_LDFLAGS_OTHER:INTERNAL=
+GTK3_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+GTK3_LIBRARIES:INTERNAL=gtk-x11-2.0;gdk-x11-2.0;atk-1.0;gio-2.0;pangoft2-1.0;pangocairo-1.0;gdk_pixbuf-2.0;cairo;pango-1.0;fontconfig;gobject-2.0;glib-2.0;freetype
+GTK3_LIBRARY_DIRS:INTERNAL=
+GTK3_LIBS:INTERNAL=
+GTK3_LIBS_L:INTERNAL=
+GTK3_LIBS_OTHER:INTERNAL=
+GTK3_LIBS_PATHS:INTERNAL=
+GTK3_PREFIX:INTERNAL=/usr
+GTK3_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gtk-2.0;-I/usr/lib/x86_64-linux-gnu/gtk-2.0/include;-I/usr/include/atk-1.0;-I/usr/include/cairo;-I/usr/include/gdk-pixbuf-2.0;-I/usr/include/pango-1.0;-I/usr/include/gio-unix-2.0/;-I/usr/include/freetype2;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/usr/include/pixman-1;-I/usr/include/libpng12;-I/usr/include/harfbuzz
+GTK3_STATIC_CFLAGS_I:INTERNAL=
+GTK3_STATIC_CFLAGS_OTHER:INTERNAL=-pthread
+GTK3_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/gtk-2.0;/usr/lib/x86_64-linux-gnu/gtk-2.0/include;/usr/include/atk-1.0;/usr/include/cairo;/usr/include/gdk-pixbuf-2.0;/usr/include/pango-1.0;/usr/include/gio-unix-2.0/;/usr/include/freetype2;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include;/usr/include/pixman-1;/usr/include/libpng12;/usr/include/harfbuzz
+GTK3_STATIC_LDFLAGS:INTERNAL=-pthread;-lgtk-x11-2.0;-lgdk-x11-2.0;-latk-1.0;-lpangoft2-1.0;-lXinerama;-lXi;-lXrandr;-lXcursor;-lXcomposite;-lXdamage;-lpangocairo-1.0;-lgdk_pixbuf-2.0;-lgio-2.0;-lresolv;-lselinux;-lXfixes;-lcairo;-lpixman-1;-lxcb-shm;-lxcb-render;-lXrender;-lXext;-lX11;-lpthread;-lxcb;-lXau;-lXdmcp;-lm;-lharfbuzz;-lpango-1.0;-lfontconfig;-lgmodule-2.0;-ldl;-lgobject-2.0;-lffi;-lglib-2.0;-lpcre;-lexpat;-lfreetype;-lz;-lpng12
+GTK3_STATIC_LDFLAGS_OTHER:INTERNAL=
+GTK3_STATIC_LIBDIR:INTERNAL=
+GTK3_STATIC_LIBRARIES:INTERNAL=gtk-x11-2.0;gdk-x11-2.0;atk-1.0;pangoft2-1.0;Xinerama;Xi;Xrandr;Xcursor;Xcomposite;Xdamage;pangocairo-1.0;gdk_pixbuf-2.0;gio-2.0;resolv;selinux;Xfixes;cairo;pixman-1;xcb-shm;xcb-render;Xrender;Xext;X11;pthread;xcb;Xau;Xdmcp;m;harfbuzz;pango-1.0;fontconfig;gmodule-2.0;dl;gobject-2.0;ffi;glib-2.0;pcre;expat;freetype;z;png12
+GTK3_STATIC_LIBRARY_DIRS:INTERNAL=
+GTK3_STATIC_LIBS:INTERNAL=
+GTK3_STATIC_LIBS_L:INTERNAL=
+GTK3_STATIC_LIBS_OTHER:INTERNAL=
+GTK3_STATIC_LIBS_PATHS:INTERNAL=
+GTK3_VERSION:INTERNAL=2.24.23
+GTK3_gtk+-2.0_INCLUDEDIR:INTERNAL=
+GTK3_gtk+-2.0_LIBDIR:INTERNAL=
+GTK3_gtk+-2.0_PREFIX:INTERNAL=
+GTK3_gtk+-2.0_VERSION:INTERNAL=
+GTK_CFLAGS:INTERNAL=-pthread;-I/usr/include/gtk-2.0;-I/usr/lib/x86_64-linux-gnu/gtk-2.0/include;-I/usr/include/atk-1.0;-I/usr/include/cairo;-I/usr/include/gdk-pixbuf-2.0;-I/usr/include/pango-1.0;-I/usr/include/gio-unix-2.0/;-I/usr/include/freetype2;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/usr/include/pixman-1;-I/usr/include/libpng12;-I/usr/include/harfbuzz
+GTK_CFLAGS_I:INTERNAL=
+GTK_CFLAGS_OTHER:INTERNAL=-pthread
+GTK_FOUND:INTERNAL=1
+GTK_INCLUDEDIR:INTERNAL=/usr/include
+GTK_INCLUDE_DIRS:INTERNAL=/usr/include/gtk-2.0;/usr/lib/x86_64-linux-gnu/gtk-2.0/include;/usr/include/atk-1.0;/usr/include/cairo;/usr/include/gdk-pixbuf-2.0;/usr/include/pango-1.0;/usr/include/gio-unix-2.0/;/usr/include/freetype2;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include;/usr/include/pixman-1;/usr/include/libpng12;/usr/include/harfbuzz
+GTK_LDFLAGS:INTERNAL=-lgtk-x11-2.0;-lgdk-x11-2.0;-latk-1.0;-lgio-2.0;-lpangoft2-1.0;-lpangocairo-1.0;-lgdk_pixbuf-2.0;-lcairo;-lpango-1.0;-lfontconfig;-lgobject-2.0;-lglib-2.0;-lfreetype
+GTK_LDFLAGS_OTHER:INTERNAL=
+GTK_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+GTK_LIBRARIES:INTERNAL=gtk-x11-2.0;gdk-x11-2.0;atk-1.0;gio-2.0;pangoft2-1.0;pangocairo-1.0;gdk_pixbuf-2.0;cairo;pango-1.0;fontconfig;gobject-2.0;glib-2.0;freetype
+GTK_LIBRARY_DIRS:INTERNAL=
+GTK_LIBS:INTERNAL=
+GTK_LIBS_L:INTERNAL=
+GTK_LIBS_OTHER:INTERNAL=
+GTK_LIBS_PATHS:INTERNAL=
+GTK_PREFIX:INTERNAL=/usr
+GTK_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gtk-2.0;-I/usr/lib/x86_64-linux-gnu/gtk-2.0/include;-I/usr/include/atk-1.0;-I/usr/include/cairo;-I/usr/include/gdk-pixbuf-2.0;-I/usr/include/pango-1.0;-I/usr/include/gio-unix-2.0/;-I/usr/include/freetype2;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include;-I/usr/include/pixman-1;-I/usr/include/libpng12;-I/usr/include/harfbuzz
+GTK_STATIC_CFLAGS_I:INTERNAL=
+GTK_STATIC_CFLAGS_OTHER:INTERNAL=-pthread
+GTK_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/gtk-2.0;/usr/lib/x86_64-linux-gnu/gtk-2.0/include;/usr/include/atk-1.0;/usr/include/cairo;/usr/include/gdk-pixbuf-2.0;/usr/include/pango-1.0;/usr/include/gio-unix-2.0/;/usr/include/freetype2;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include;/usr/include/pixman-1;/usr/include/libpng12;/usr/include/harfbuzz
+GTK_STATIC_LDFLAGS:INTERNAL=-pthread;-lgtk-x11-2.0;-lgdk-x11-2.0;-latk-1.0;-lpangoft2-1.0;-lXinerama;-lXi;-lXrandr;-lXcursor;-lXcomposite;-lXdamage;-lpangocairo-1.0;-lgdk_pixbuf-2.0;-lgio-2.0;-lresolv;-lselinux;-lXfixes;-lcairo;-lpixman-1;-lxcb-shm;-lxcb-render;-lXrender;-lXext;-lX11;-lpthread;-lxcb;-lXau;-lXdmcp;-lm;-lharfbuzz;-lpango-1.0;-lfontconfig;-lgmodule-2.0;-ldl;-lgobject-2.0;-lffi;-lglib-2.0;-lpcre;-lexpat;-lfreetype;-lz;-lpng12
+GTK_STATIC_LDFLAGS_OTHER:INTERNAL=
+GTK_STATIC_LIBDIR:INTERNAL=
+GTK_STATIC_LIBRARIES:INTERNAL=gtk-x11-2.0;gdk-x11-2.0;atk-1.0;pangoft2-1.0;Xinerama;Xi;Xrandr;Xcursor;Xcomposite;Xdamage;pangocairo-1.0;gdk_pixbuf-2.0;gio-2.0;resolv;selinux;Xfixes;cairo;pixman-1;xcb-shm;xcb-render;Xrender;Xext;X11;pthread;xcb;Xau;Xdmcp;m;harfbuzz;pango-1.0;fontconfig;gmodule-2.0;dl;gobject-2.0;ffi;glib-2.0;pcre;expat;freetype;z;png12
+GTK_STATIC_LIBRARY_DIRS:INTERNAL=
+GTK_STATIC_LIBS:INTERNAL=
+GTK_STATIC_LIBS_L:INTERNAL=
+GTK_STATIC_LIBS_OTHER:INTERNAL=
+GTK_STATIC_LIBS_PATHS:INTERNAL=
+GTK_VERSION:INTERNAL=2.24.23
+GTK_gtk+-2.0_INCLUDEDIR:INTERNAL=
+GTK_gtk+-2.0_LIBDIR:INTERNAL=
+GTK_gtk+-2.0_PREFIX:INTERNAL=
+GTK_gtk+-2.0_VERSION:INTERNAL=
 //ADVANCED property for variable: OpenCV_3RDPARTY_LIB_DIR_DBG
 OpenCV_3RDPARTY_LIB_DIR_DBG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OpenCV_3RDPARTY_LIB_DIR_OPT
@@ -1145,6 +1311,8 @@ OpenCV_CONFIG_PATH-ADVANCED:INTERNAL=1
 OpenCV_LIB_DIR_DBG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OpenCV_LIB_DIR_OPT
 OpenCV_LIB_DIR_OPT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //This needs to be in PYTHONPATH when 'setup.py install' is called.
@@ -1173,6 +1341,8 @@ QT_DESIGNER_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: QT_DOC_DIR
 QT_DOC_DIR-ADVANCED:INTERNAL=1
 QT_HEADERS_DIR:INTERNAL=/usr/include/qt4
+//ADVANCED property for variable: QT_IMPORTS_DIR
+QT_IMPORTS_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: QT_LIBRARY_DIR
 QT_LIBRARY_DIR-ADVANCED:INTERNAL=1
 //Qt library dir
@@ -1561,4 +1731,6 @@ Q_WS_QWS:INTERNAL=
 Q_WS_WIN:INTERNAL=
 //Have symbol Q_WS_X11
 Q_WS_X11:INTERNAL=1
+__pkg_config_checked_GTK:INTERNAL=1
+__pkg_config_checked_GTK3:INTERNAL=1
 

@@ -18,7 +18,6 @@ import numpy as np
 # Imu.angular_velocity:w1,w2,w3
 # Imu.linear_acceleration:a1,a2,a3
 
-cv2.imshow()
 # init
 def callback(imu):
 

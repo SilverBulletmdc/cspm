@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/meng/cspm/src/face_detect/src/main.cpp
-stdafx.h
-/home/meng/cspm/src/face_detect/src/stdafx.h
-vector
--
-sensor_msgs/Image.h
-/home/meng/cspm/src/face_detect/src/sensor_msgs/Image.h
+/home/meng/cspm/src/face_detect/src/cspm_robot.cpp
+cspm_robot.h
+/home/meng/cspm/src/face_detect/src/cspm_robot.h
 
-/home/meng/cspm/src/face_detect/src/stdafx.h
+/home/meng/cspm/src/face_detect/src/cspm_robot.h
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -36,6 +32,16 @@ std_msgs/Empty.h
 iostream
 -
 geometry_msgs/Twist.h
+-
+vector
+-
+sensor_msgs/Image.h
+-
+sensor_msgs/NavSatFix.h
+-
+stdlib.h
+-
+unistd.h
 -
 
 /opt/ros/indigo/include/XmlRpcDecl.h
@@ -834,6 +840,42 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 std_msgs/Header.h
+-
+
+/opt/ros/indigo/include/sensor_msgs/NavSatFix.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+sensor_msgs/NavSatStatus.h
+-
+
+/opt/ros/indigo/include/sensor_msgs/NavSatStatus.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
 -
 
 /opt/ros/indigo/include/sensor_msgs/RegionOfInterest.h

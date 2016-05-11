@@ -72,9 +72,32 @@ face_detect/CMakeFiles/facedetect.dir/src/main.cpp.o.provides: face_detect/CMake
 
 face_detect/CMakeFiles/facedetect.dir/src/main.cpp.o.provides.build: face_detect/CMakeFiles/facedetect.dir/src/main.cpp.o
 
+face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o: face_detect/CMakeFiles/facedetect.dir/flags.make
+face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o: /home/meng/cspm/src/face_detect/src/cspm_robot.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/meng/cspm/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o"
+	cd /home/meng/cspm/build/face_detect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o -c /home/meng/cspm/src/face_detect/src/cspm_robot.cpp
+
+face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/facedetect.dir/src/cspm_robot.cpp.i"
+	cd /home/meng/cspm/build/face_detect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/meng/cspm/src/face_detect/src/cspm_robot.cpp > CMakeFiles/facedetect.dir/src/cspm_robot.cpp.i
+
+face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/facedetect.dir/src/cspm_robot.cpp.s"
+	cd /home/meng/cspm/build/face_detect && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/meng/cspm/src/face_detect/src/cspm_robot.cpp -o CMakeFiles/facedetect.dir/src/cspm_robot.cpp.s
+
+face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o.requires:
+.PHONY : face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o.requires
+
+face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o.provides: face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o.requires
+	$(MAKE) -f face_detect/CMakeFiles/facedetect.dir/build.make face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o.provides.build
+.PHONY : face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o.provides
+
+face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o.provides.build: face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o
+
 face_detect/CMakeFiles/facedetect.dir/src/facedetect.cpp.o: face_detect/CMakeFiles/facedetect.dir/flags.make
 face_detect/CMakeFiles/facedetect.dir/src/facedetect.cpp.o: /home/meng/cspm/src/face_detect/src/facedetect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/meng/cspm/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/meng/cspm/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object face_detect/CMakeFiles/facedetect.dir/src/facedetect.cpp.o"
 	cd /home/meng/cspm/build/face_detect && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/facedetect.dir/src/facedetect.cpp.o -c /home/meng/cspm/src/face_detect/src/facedetect.cpp
 
@@ -98,12 +121,14 @@ face_detect/CMakeFiles/facedetect.dir/src/facedetect.cpp.o.provides.build: face_
 # Object files for target facedetect
 facedetect_OBJECTS = \
 "CMakeFiles/facedetect.dir/src/main.cpp.o" \
+"CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o" \
 "CMakeFiles/facedetect.dir/src/facedetect.cpp.o"
 
 # External object files for target facedetect
 facedetect_EXTERNAL_OBJECTS =
 
 /home/meng/cspm/devel/lib/face_detect/facedetect: face_detect/CMakeFiles/facedetect.dir/src/main.cpp.o
+/home/meng/cspm/devel/lib/face_detect/facedetect: face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o
 /home/meng/cspm/devel/lib/face_detect/facedetect: face_detect/CMakeFiles/facedetect.dir/src/facedetect.cpp.o
 /home/meng/cspm/devel/lib/face_detect/facedetect: face_detect/CMakeFiles/facedetect.dir/build.make
 /home/meng/cspm/devel/lib/face_detect/facedetect: /opt/ros/indigo/lib/libcv_bridge.so
@@ -155,6 +180,7 @@ facedetect_EXTERNAL_OBJECTS =
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
+/home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_nonfree.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.8
@@ -165,10 +191,13 @@ facedetect_EXTERNAL_OBJECTS =
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
+/home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_nonfree.so.2.4.8
+/home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.8
+/home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.8
+/home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.8
-/home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.8
 /home/meng/cspm/devel/lib/face_detect/facedetect: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.8
@@ -185,6 +214,7 @@ face_detect/CMakeFiles/facedetect.dir/build: /home/meng/cspm/devel/lib/face_dete
 .PHONY : face_detect/CMakeFiles/facedetect.dir/build
 
 face_detect/CMakeFiles/facedetect.dir/requires: face_detect/CMakeFiles/facedetect.dir/src/main.cpp.o.requires
+face_detect/CMakeFiles/facedetect.dir/requires: face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o.requires
 face_detect/CMakeFiles/facedetect.dir/requires: face_detect/CMakeFiles/facedetect.dir/src/facedetect.cpp.o.requires
 .PHONY : face_detect/CMakeFiles/facedetect.dir/requires
 

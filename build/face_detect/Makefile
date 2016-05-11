@@ -373,6 +373,30 @@ std_msgs_generate_messages_py/fast:
 	cd /home/meng/cspm/build && $(MAKE) -f face_detect/CMakeFiles/std_msgs_generate_messages_py.dir/build.make face_detect/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+src/cspm_robot.o: src/cspm_robot.cpp.o
+.PHONY : src/cspm_robot.o
+
+# target to build an object file
+src/cspm_robot.cpp.o:
+	cd /home/meng/cspm/build && $(MAKE) -f face_detect/CMakeFiles/facedetect.dir/build.make face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.o
+.PHONY : src/cspm_robot.cpp.o
+
+src/cspm_robot.i: src/cspm_robot.cpp.i
+.PHONY : src/cspm_robot.i
+
+# target to preprocess a source file
+src/cspm_robot.cpp.i:
+	cd /home/meng/cspm/build && $(MAKE) -f face_detect/CMakeFiles/facedetect.dir/build.make face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.i
+.PHONY : src/cspm_robot.cpp.i
+
+src/cspm_robot.s: src/cspm_robot.cpp.s
+.PHONY : src/cspm_robot.s
+
+# target to generate assembly for a file
+src/cspm_robot.cpp.s:
+	cd /home/meng/cspm/build && $(MAKE) -f face_detect/CMakeFiles/facedetect.dir/build.make face_detect/CMakeFiles/facedetect.dir/src/cspm_robot.cpp.s
+.PHONY : src/cspm_robot.cpp.s
+
 src/facedetect.o: src/facedetect.cpp.o
 .PHONY : src/facedetect.o
 
@@ -450,6 +474,9 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
+	@echo "... src/cspm_robot.o"
+	@echo "... src/cspm_robot.i"
+	@echo "... src/cspm_robot.s"
 	@echo "... src/facedetect.o"
 	@echo "... src/facedetect.i"
 	@echo "... src/facedetect.s"
